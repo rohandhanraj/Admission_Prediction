@@ -47,3 +47,6 @@ heroku git:remote -a admn-predixn
 
 git push heroku main
 ```
+
+# Public Endpoint:
+Check the application at: https://admn-predixn.herokuapp.com/
