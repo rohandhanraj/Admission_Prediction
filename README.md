@@ -46,6 +46,7 @@ docker tag admn-pred rohandhanraj/admission-prediction
 
 docker push rohandhanraj/admission-prediction
 ```
+## [Docker Image](https://hub.docker.com/r/rohandhanraj/admission-prediction)
 
 # Deployment
 **Platform: [Heroku](https://admn-predixn.herokuapp.com/)**  
