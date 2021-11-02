@@ -26,6 +26,12 @@ docker image build -t admn-pred .
 ```bash
 docker run -p 5000:5000 -d admn-pred
 ```
+## Pushing the Docker container to DockerHub
+```bash
+docker tag admn-pred rohandhanraj/admission-prediction
+
+docker push rohandhanraj/admission-prediction
+```
 
 # Deployment
 **Platform: Heroku**
