@@ -1,7 +1,7 @@
 # Admission_Prediction
 Graduate Admission Prediction Model  
-**A graduate application is to be completed by a student who wants to enroll in a Master's or doctoral degree. A graduate application will be reviewed by the department that the student applies to along with a Graduate Program Director and/or an admissions committee.**  
-**So in this dataset we will predict the Graduate Admissions from an Indian perspective.**
+**A graduate application is to be completed by a student who wants to enroll in a Master's or doctoral degree. A graduate application will be reviewed by the department that the student applies to by a Graduate Program Director and/or an admissions committee.**  
+**So in this dataset we will predict the Graduate Admissions from Program Director perspective.**
 
 # Commands to run the model on local machine
 ## Creating a virtual environment for the model
