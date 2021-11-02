@@ -41,6 +41,8 @@ git push -u origin main
 ```
 ## Deploying on Heroku
 ```bash
+heroku login
+
 heroku git:remote -a admn-predixn
 
 git push heroku main
