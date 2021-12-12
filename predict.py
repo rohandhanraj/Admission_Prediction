@@ -38,7 +38,7 @@ def index():
                 sop,
                 lor,
                 cgpa,
-                research
+                is_research
                 ]])
             print('Prediction is', prediction)
             # showing the prediction results in a UI

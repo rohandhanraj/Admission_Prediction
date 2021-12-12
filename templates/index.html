@@ -4,6 +4,8 @@
 
 <title>Search Page</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 {% endblock %}
 
 {% block body %}
@@ -22,8 +24,9 @@
   <option value="yes">Yes</option>
   <option value="no">No</option>
 </select>
-            <input type="submit" value="Predict">
+            <input type="submit" id="btn_sbt" value="Predict">
         </form>
     </div>
 </div>
+<script src="{{ url_for('static', filename='js/validation.js') }}"></script>
 {% endblock %}

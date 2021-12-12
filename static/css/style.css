@@ -161,3 +161,11 @@ table tr:nth-child(2n+1) {
     overflow: visible;
   }
 }
+
+.errorMessage {
+  border: 2px solid red;
+}
+
+.successMessage {
+  border: 2px solid #f2f2f2;
+}
