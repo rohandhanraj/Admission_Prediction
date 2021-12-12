@@ -25,11 +25,8 @@ def index():
             sop = float(request.form['sop'])
             lor = float(request.form['lor'])
             cgpa = float(request.form['cgpa'])
-            is_research = request.form['research']
-            if(is_research =='yes'):
-                research = 1
-            else:
-                research = 0
+            is_research = 1 if request.form['research'] == 'yes' else 0
+            
             filename = 'model.sav'
             # loading the model file from the storage
             loaded_model = pickle.load(open(filename, 'rb'))
